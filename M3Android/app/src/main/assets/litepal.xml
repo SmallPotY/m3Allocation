@@ -1,0 +1,14 @@
+<litepal>
+
+        <dbname value="M3_DB" />
+
+        <version value ="1"/>
+
+        <list>
+
+<!--                <mapping class="" />-->
+        </list>
+
+
+
+</litepal>

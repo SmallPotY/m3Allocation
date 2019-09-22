@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">M3</string>
+    <string name="btnDistribution">分拨</string>
+    <string name="btnEmbarkation">装载</string>
+</resources>
