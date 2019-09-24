@@ -4,16 +4,16 @@ from common.models import Base, db
 
 class ArrangeCarsModel(Base):
     """-config-
-        undefined
+        排车表
     """
     __tablename__ = 'ARRANGE_CARS'
 
     arrange_id = db.Column(db.Integer, primary_key=True, nullable=False, comment="id")
     registration_number = db.Column(db.String(32), comment="车牌号")
     car_model = db.Column(db.String(32), comment="车型")
-    height = db.Column(db.Float, comment="车高")
-    length = db.Column(db.Float, comment="车长")
-    width = db.Column(db.Float, comment="车宽")
+    car_height = db.Column(db.Float, comment="车高")
+    car_length = db.Column(db.Float, comment="车长")
+    car_width = db.Column(db.Float, comment="车宽")
     hold_weight = db.Column(db.Float, comment="载重")
     hold_volume = db.Column(db.Float, comment="载量")
     driver_name = db.Column(db.String(32), comment="司机姓名")

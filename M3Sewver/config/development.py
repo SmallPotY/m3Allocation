@@ -5,7 +5,7 @@ config = ConfigParser()
 config.read("secret.ini")
 
 SERVER_PORT = 8888  # 端口号
-SERVER_HOST = '127.0.0.1'  # 访问地址
+SERVER_HOST = '0.0.0.0'  # 访问地址
 DEBUG = True  # 调试模式
 RELEASE_VERSION = '1.0'  # 发布版本
 

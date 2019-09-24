@@ -4,7 +4,7 @@ from common.models import Base, db
 
 class LocationModel(Base):
     """-config-
-        undefined
+        货位表
     """
     __tablename__ = 'LOCATION'
 
@@ -13,4 +13,4 @@ class LocationModel(Base):
     location_id = db.Column(db.String(32), nullable=False, default="", server_default="", comment="货位号")
     area_name = db.Column(db.String(32), nullable=False, default="", server_default="", comment="区域名")
     area_type = db.Column(db.String(32), nullable=False, default="", server_default="", comment="区域类型")
-    describe = db.Column(db.String(512), nullable=False, default="", server_default="", comment="描述")
+    location_describe = db.Column(db.String(512), nullable=False, default="", server_default="", comment="描述")
